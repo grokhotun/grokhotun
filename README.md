@@ -4,7 +4,7 @@
 
 ### Стэк
 
-<div style="display: flex; align-items: center;">
+<div style="display: flex; align-items: center; background-color: #FFFFFF;">
   <img alt="html" width="60" src="/icons/html.svg">
   <img alt="css" width="60" src="/icons/css.svg">
   <img alt="sass" width="60" src="/icons/sass-less.png">
