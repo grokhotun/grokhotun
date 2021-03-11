@@ -4,41 +4,41 @@
 
 ## Основной стэк
 <div style="display: flex; align-items: center;">
-  <img alt="html" width="50" src="/icons/html.svg">
-  <img alt="css" width="50" src="/icons/css.svg">
-  <img alt="sass" width="50" src="/icons/sass-less.png">
-  <img alt="bootstrap" width="50" src="/icons/bootstrap.svg">
+  <img title="HTML" alt="html" width="40" src="/icons/html.svg">
+  <img title="CSS" alt="css" width="40" src="/icons/css.svg">
+  <img title="Sass/Less" alt="sass" width="40" src="/icons/sass-less.png">
+  <img title="Boostrap" alt="bootstrap" width="40" src="/icons/bootstrap.svg">
 </div>
 <div style="display: flex; align-items: center;">
-  <img alt="typescript" width="50" src="/icons/typescript.svg">
-  <img alt="javascript" width="50" src="/icons/javascript.svg">
+  <img title="TypeScript" alt="typescript" width="40" src="/icons/typescript.svg">
+  <img title="JavaScript" alt="javascript" width="40" src="/icons/javascript.svg">
 </div>
 <div style="display: flex; align-items: center;">
-  <img alt="vue" width="50" src="/icons/vue.svg">
-  <img alt="nuxtjs" width="50" src="/icons/nuxtjs.png">
-  <img alt="react" width="50" src="/icons/react.svg">
+  <img title="Vue.js" alt="vue" width="40" src="/icons/vue.svg">
+  <img title="Nuxt.js" alt="nuxtjs" width="40" src="/icons/nuxtjs.png">
+  <img title="React.js" alt="react" width="40" src="/icons/react.svg">
 </div>
 
 ## С чем работал
 <div style="display: flex; align-items: center;">
-  <img alt="python" width="50" src="/icons/python.svg">
-  <img style="margin: 0px 5px;" alt="django" width="50" src="/icons/django.svg">
-  <img style="margin: 0px 5px;" alt="php" width="50" src="/icons/php.svg">
-  <img alt="postgres" width="70" src="/icons/postgres.png">
+  <img title="Pyrhon" alt="python" width="40" src="/icons/python.svg">
+  <img title="Django" style="margin: 0px 5px;" alt="django" width="40" src="/icons/django.svg">
+  <img title="PHP" style="margin: 0px 5px;" alt="php" width="40" src="/icons/php.svg">
+  <img title="PostgreSQL" alt="postgres" width="70" src="/icons/postgres.png">
 </div>
 
 ## Инструменты, облегчающие мне жизнь
 <div style="display: flex; align-items: center;">
-  <img alt="vscode" width="50" src="/icons/vscode.svg">
-  <img alt="ubuntu" width="50" src="/icons/ubuntu.png">
+  <img title="VSCode" alt="vscode" width="40" src="/icons/vscode.svg">
+  <img title="Linux OS" alt="ubuntu" width="40" src="/icons/ubuntu.png">
 </div>
 <div style="display: flex; align-items: center;">
-  <img alt="webpack" width="50" src="/icons/webpack.svg">
-  <img alt="gulp" width="60" src="/icons/gulp.svg">
-  <img style="margin: 0px 3px;" alt="docker" width="50" src="/icons/docker.svg">
+  <img title="Webpack" alt="webpack" width="40" src="/icons/webpack.svg">
+  <img title="Gulp" alt="gulp" width="50" src="/icons/gulp.svg">
+  <img title="Docker" style="margin: 0px 3px;" alt="docker" width="40" src="/icons/docker.svg">
 </div>
 <div style="display: flex; align-items: center;">
-  <img style="margin: 0px 3px;" alt="nodejs" width="60" src="/icons/nodejs.svg">
-  <img alt="yarn" width="60" src="/icons/yarn.svg">
-  <img alt="firebase" width="50" src="/icons/firebase.svg">
+  <img title="Node JS" style="margin: 0px 3px;" alt="nodejs" width="50" src="/icons/nodejs.svg">
+  <img title="Менеджер пакетов Yarn" alt="yarn" width="50" src="/icons/yarn.svg">
+  <img title="Google Firebase" alt="firebase" width="40" src="/icons/firebase.svg">
 </div>
