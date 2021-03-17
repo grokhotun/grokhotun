@@ -30,7 +30,8 @@
 ## Инструменты, облегчающие мне жизнь
 <div style="display: flex; align-items: center;">
   <img title="VSCode" alt="vscode" width="40" src="/icons/vscode.svg">
-  <img title="Linux OS" alt="ubuntu" width="40" src="/icons/ubuntu.png">
+  <img style="margin: 0px 5px;" title="Linux OS" alt="ubuntu" width="40" src="/icons/ubuntu.png">
+  <img title="pm2" alt="pm2" width="100" src="/icons/pm2.svg">
 </div>
 <div style="display: flex; align-items: center;">
   <img title="Webpack" alt="webpack" width="40" src="/icons/webpack.svg">
