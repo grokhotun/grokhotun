@@ -24,6 +24,10 @@ Frontend-разработчик из Уфы. Разрабатываю интер
   <img title="PHP" style="margin: 0px 5px;" alt="php" width="40" src="/icons/php.svg">
   <img title="PostgreSQL" alt="postgres" width="70" src="/icons/postgres.png">
 </div>
+<div style="display: flex; align-items: center;">
+  <img style="margin: 0px 10px 0px 0px" title="Nginx" alt="nginx" width="70" src="/icons/nginx.png">
+  <img title="Apache" alt="apache" width="70" src="/icons/apache2.png">
+</div>
 
 ## Инструменты, облегчающие мне жизнь
 <div style="display: flex; align-items: center;">
