@@ -1,12 +1,9 @@
-type Languages = {
+type Section<T> = {
   title: string;
-  content: string[];
+  content: T;
 };
 
-type Education = {
-  title: string;
-  content: { title: string; description: string; period: string }[];
-};
+type Education = { title: string; description: string; period: string };
 
 type Position = {
   title: string;
@@ -24,15 +21,9 @@ type Experience = {
 export type ResumeSchema = {
   title: string;
   subtitle: string;
-  about: {
-    title: string;
-    content: string;
-  };
+  about: Section<string>;
   skills: string;
-  experience: {
-    title: string;
-    content: Experience[];
-  };
-  education: Education;
-  languages: Languages;
+  experience: Section<Experience[]>;
+  education: Section<Education[]>;
+  languages: Section<string[]>;
 };
