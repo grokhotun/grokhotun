@@ -28,7 +28,6 @@ const useLanguageLink = (lang: 'en' | 'ru') => {
   return [href, title] as const;
 };
 
-type HomeProps = { params: { lang: 'en' | 'ru' } };
 const skills = [
   'JavaScript, TypeScript',
   'React, Redux, Zustand, React Query, Effector, Next.js',
@@ -44,12 +43,12 @@ const skills = [
   'SCRUM',
 ];
 
+type HomeProps = { params: { lang: 'en' | 'ru' } };
+
 export default function Home(props: HomeProps) {
   unstable_setRequestLocale(props.params.lang);
-
   const [href, title] = useLanguageLink(props.params.lang);
   const t = useTranslations('index');
-
   const experience = Object.values<any>(t.raw('experience.content'));
   const education = Object.values<any>(t.raw('education.content'));
   const languages = Object.values<string>(t.raw('languages.content'));
