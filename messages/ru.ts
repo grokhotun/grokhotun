@@ -1,6 +1,6 @@
 import { ResumeSchema } from '../src/types';
 
-export default {
+const content: { index: ResumeSchema } = {
   index: {
     title: 'Аскар Яляев',
     subtitle: 'Javascript Frontend разработчик | React',
@@ -16,7 +16,6 @@ export default {
         {
           title: 'Samolet Development',
           place: 'Москва, Россия',
-          period: '07/2023 - по настоящее время',
           positions: [
             {
               period: '07/2023 - по настоящее время',
@@ -147,4 +146,6 @@ export default {
       content: ['Русский - носитель', 'Английский - C1'],
     },
   },
-} as { index: ResumeSchema };
+};
+
+export default content;

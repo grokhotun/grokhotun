@@ -1,6 +1,6 @@
 import { ResumeSchema } from '@/types';
 
-export default {
+const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
     subtitle: 'Javascript Frontend developer | React',
@@ -144,4 +144,6 @@ export default {
       content: ['Russian - Native', 'English - C1'],
     },
   },
-} as { index: ResumeSchema };
+};
+
+export default content;

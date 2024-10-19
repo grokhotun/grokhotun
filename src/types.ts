@@ -28,6 +28,7 @@ export type ResumeSchema = {
     title: string;
     content: string;
   };
+  skills: string;
   experience: {
     title: string;
     content: Experience[];
