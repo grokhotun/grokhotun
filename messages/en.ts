@@ -4,11 +4,6 @@ const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
     subtitle: 'Javascript Frontend developer | React',
-    about: {
-      title: 'About',
-      content:
-        'A frontend developer with more than four years experience in developing high-load UI and web-apps',
-    },
     skills: 'Skills',
     experience: {
       title: 'Experience',

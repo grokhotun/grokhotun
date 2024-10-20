@@ -8,6 +8,7 @@ import {
   List,
   RussianFlag,
   BritishFlag,
+  Box,
 } from '@/app/ui';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
@@ -55,33 +56,31 @@ export default function Home(props: HomeProps) {
 
   return (
     <main className='py-9 mx-auto w-[210mm]'>
-      <div className='flex items-center'>
+      <Box className='flex items-center'>
         <Title className='w-full' level={1}>
           {t('title')}
         </Title>
         <NextLink href={href}>{title}</NextLink>
-      </div>
+      </Box>
       <Title level={2}>{t('subtitle')}</Title>
-      <div>
+      <Box>
         <Span>LinkedIn: </Span>
         <Link target='_blank' href='https://www.linkedin.com/in/askar-yalyaev/'>
           https://www.linkedin.com/in/askar-yalyaev/
         </Link>
-      </div>
-      <div>
+      </Box>
+      <Box>
         <Span>Email: </Span>
         <Link target='_blank' href='mailto:askarrussia@gmail.com'>
           askarrussia@gmail.com
         </Link>
-      </div>
-      <div>
+      </Box>
+      <Box>
         <Span>Telegram: </Span>
         <Link target='_blank' href='https://t.me/skrylyv'>
           https://t.me/skrylyv
         </Link>
-      </div>
-      <Title level={3}>{t('about.title')}</Title>
-      <Paragraph>{t('about.content')}</Paragraph>
+      </Box>
       <Divider />
       <Title level={3}>{t('skills')}</Title>
       <List>
@@ -97,14 +96,14 @@ export default function Home(props: HomeProps) {
           <Paragraph className='italic font-light'>{company.place}</Paragraph>
           {Object.values<any>(company.positions).map(position => (
             <React.Fragment key={position.title}>
-              <div className='flex items-center'>
+              <Box className='flex items-center'>
                 <Title level={5} className='grow'>
                   {position.title}
                 </Title>
                 <Paragraph className='my-2 italic text-base font-light'>
                   {position.period}
                 </Paragraph>
-              </div>
+              </Box>
               <Paragraph>{position.description}</Paragraph>
               <List>
                 {Object.values<string>(position.responsibilities)
@@ -121,14 +120,14 @@ export default function Home(props: HomeProps) {
       <Title level={3}>{t('education.title')}</Title>
       {education.map(education => (
         <React.Fragment key={education.title}>
-          <div className='flex items-center'>
+          <Box className='flex items-center'>
             <Title level={4} className='grow'>
               {education.title}
             </Title>
             <Paragraph className='my-2 italic text-base font-light'>
               {education.period}
             </Paragraph>
-          </div>
+          </Box>
           <Paragraph>{education.description}</Paragraph>
         </React.Fragment>
       ))}

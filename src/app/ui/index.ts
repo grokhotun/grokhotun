@@ -6,3 +6,5 @@ export { Span } from './Span';
 export { Divider } from './Divider';
 export { BritishFlag } from './BritishFlag';
 export { RussianFlag } from './RussianFlag';
+export { Box } from './Box';
+export { Tag } from './Tag';
