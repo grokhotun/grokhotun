@@ -31,13 +31,13 @@ const useLanguageLink = (lang: 'en' | 'ru') => {
 
 const skills = [
   'JavaScript, TypeScript',
-  'React, Redux, Zustand, React Query, Effector, Next.js',
+  'React, Next.js, Redux, Zustand, React Query, Effector',
   'Microfrontends',
-  'Node.js, npm, yarn',
+  'Webpack, Vite, Node.js, npm, yarn',
   'HTML, CSS, SASS, LESS, styled-components, tailwind',
   'Ant Design, Material UI, Radix UI, Stitches',
   'Storybook',
-  'Jest E2E, Puppeter, TDD, React Testing Library',
+  'Jest, End-to-end, Puppeter, Test Driven Development, React Testing Library',
   'Websocket, REST API Graph QL',
   'Docker, docker-compose',
   'Jira, Figma, Git',
