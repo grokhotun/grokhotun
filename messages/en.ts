@@ -14,7 +14,7 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: '07/2023 - Present',
-              title: 'Design System Frontend Lead',
+              title: 'Frontend Lead, design system',
               description: 'Head of design system developing',
               responsibilities: [
                 'Developed a design system, establishing a unified visual language, improving development efficiency',
@@ -47,6 +47,8 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend developer',
               description: '',
               responsibilities: [
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by 12%',
+
                 'Increased unit test coverage from 62% to 86%, significantly improving code reliability and reducing the risk of defects',
               ],
             },
@@ -60,7 +62,13 @@ const content: { index: ResumeSchema } = {
               period: '09/2020 - 05/2021',
               title: 'Fullstack developer',
               description: '',
-              responsibilities: ['-'],
+              responsibilities: [
+                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by 30% and effectively capturing the mobile audience',
+
+                "Improved the client's website indexing through SEO optimizations, boosting its search ranking from the second page to the top of the first page",
+
+                'Developed an algorithm to integrate the e-commerce database with the TradeX inventory management system, optimizing data synchronization and workflow efficiency',
+              ],
             },
           ],
         },
@@ -77,7 +85,7 @@ const content: { index: ResumeSchema } = {
           ],
         },
         {
-          title: 'Intek',
+          title: 'Aviatron (ex. Intek)',
           place: 'Ufa, Russia',
           positions: [
             {

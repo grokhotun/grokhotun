@@ -30,17 +30,51 @@ const useLanguageLink = (lang: 'en' | 'ru') => {
 };
 
 const skills = [
-  'JavaScript, TypeScript',
-  'React, Next.js, Redux, Zustand, React Query, Effector',
+  'JavaScript',
+  'TypeScript',
+
+  'HTML',
+  'CSS',
+  'SASS',
+  'LESS',
+  'styled-components',
+  'tailwind',
+
+  'React',
+  'Next.js',
+
+  'Redux',
+  'Zustand',
+  'ReactQuery',
+  'Effector',
   'Microfrontends',
-  'Webpack, Vite, Node.js, npm, yarn',
-  'HTML, CSS, SASS, LESS, styled-components, tailwind',
+
   'Ant Design, Material UI, Radix UI, Stitches',
+
+  'Webpack',
+  'Vite',
+  'Node.js',
+  'npm',
+  'yarn',
   'Storybook',
-  'Jest, End-to-end, Puppeter, Test Driven Development, React Testing Library',
-  'Websocket, REST API Graph QL',
-  'Docker, docker-compose',
-  'Jira, Figma, Git',
+
+  'Jest',
+  'End-to-end',
+  'Puppeter',
+  'Test Driven Development',
+  'React Testing Library',
+
+  'Websocket',
+  'REST API ',
+  'GraphQL',
+
+  'Docker',
+  'docker-compose',
+  'k8s',
+
+  'Jira',
+  'Figma',
+  'Git',
   'SCRUM',
 ];
 
@@ -109,7 +143,7 @@ export default function Home(props: HomeProps) {
         </React.Fragment>
       ))}
       <Title level={3}>{t('skills')}</Title>
-      <Paragraph>{skills.join(',')}</Paragraph>
+      <Paragraph>{skills.join(', ')}</Paragraph>
       <Title level={3}>{t('education.title')}</Title>
       {education.map(education => (
         <React.Fragment key={education.title}>

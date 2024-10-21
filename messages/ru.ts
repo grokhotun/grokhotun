@@ -106,7 +106,7 @@ const content: { index: ResumeSchema } = {
           ],
         },
         {
-          title: 'Intek',
+          title: 'Авиатрон (ex. Intek)',
           place: 'Уфа, Россия',
           positions: [
             {
