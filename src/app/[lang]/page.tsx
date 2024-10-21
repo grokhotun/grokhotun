@@ -81,14 +81,6 @@ export default function Home(props: HomeProps) {
           https://t.me/skrylyv
         </Link>
       </Box>
-      <Divider />
-      <Title level={3}>{t('skills')}</Title>
-      <List>
-        {skills.map(skill => (
-          <List.Item key={skill}>{skill}</List.Item>
-        ))}
-      </List>
-      <Divider />
       <Title level={3}>{t('experience.title')}</Title>
       {experience.map(company => (
         <React.Fragment key={company.title}>
@@ -116,7 +108,8 @@ export default function Home(props: HomeProps) {
           ))}
         </React.Fragment>
       ))}
-      <Divider />
+      <Title level={3}>{t('skills')}</Title>
+      <Paragraph>{skills.join(',')}</Paragraph>
       <Title level={3}>{t('education.title')}</Title>
       {education.map(education => (
         <React.Fragment key={education.title}>
@@ -131,7 +124,6 @@ export default function Home(props: HomeProps) {
           <Paragraph>{education.description}</Paragraph>
         </React.Fragment>
       ))}
-      <Divider />
       <Title level={3}>{t('languages.title')}</Title>
       <List>
         {languages.map(language => (

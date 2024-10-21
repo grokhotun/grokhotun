@@ -6,7 +6,7 @@ const content: { index: ResumeSchema } = {
     subtitle: 'Javascript Frontend developer | React',
     skills: 'Skills',
     experience: {
-      title: 'Experience',
+      title: 'Work experience',
       content: [
         {
           title: 'Samolet Development',
@@ -17,13 +17,11 @@ const content: { index: ResumeSchema } = {
               title: 'Design System Frontend Lead',
               description: 'Head of design system developing',
               responsibilities: [
-                'Team management',
-                'Task planning, decomposition, estimation, and grooming',
-                'Gathering technical requirements and researching user scenarios',
-                'Designing component architecture',
-                'Writing, maintaining, and updating Storybook documentation',
-                'Frontend product teams consulting ',
-                'Code review, mentoring, and conducting interviews',
+                'Developed a design system, establishing a unified visual language, improving development efficiency',
+
+                'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating development cycles',
+
+                'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and ensuring consistency across the development team',
               ],
             },
             {
@@ -31,14 +29,11 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend developer',
               description: '',
               responsibilities: [
-                'Designing application architecture and its modules',
-                'Gathering technical requirements and communicating with business analysts',
-                'Profiling, identifying bottlenecks, and optimizing web applications',
-                'Setting up, implementing, and supporting micro-frontends',
-                'Writing and maintaining end-to-end tests',
-                'Configuring CI/CD pipelines',
-                'Supporting and developing internal tools',
-                'Code review, mentoring, and conducting interviews',
+                'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by 30%, enhancing performance and improving loading time',
+
+                'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development team',
+
+                'Managed the end-to-end recruitment process, identifying and interviewing candidates, and successfully hired 5 developers with the right expertise for each project',
               ],
             },
           ],
@@ -52,14 +47,7 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend developer',
               description: '',
               responsibilities: [
-                'Designing application architecture and its modules',
-                'Gathering technical requirements and communicating with business analysts',
-                'Profiling, identifying bottlenecks, and optimizing web applications',
-                'Setting up, implementing, and supporting micro-frontends',
-                'Writing and maintaining end-to-end tests',
-                'Configuring CI/CD pipelines',
-                'Supporting and developing internal tools',
-                'Code review, mentoring, and conducting interviews',
+                'Increased unit test coverage from 62% to 86%, significantly improving code reliability and reducing the risk of defects',
               ],
             },
           ],
@@ -72,16 +60,7 @@ const content: { index: ResumeSchema } = {
               period: '09/2020 - 05/2021',
               title: 'Fullstack developer',
               description: '',
-              responsibilities: [
-                'Разработка e-commerce сервиса на стеке React, Next + Redux, TypeScript',
-                'Поддержка и сопровождение существующих проектов на Vue2 + Nuxt стеке',
-                'Коммуникация с клиентами для обсуждения требований и деталей реализаций задач',
-                'Верстка макетов, электронных писем, коммуникация с дизайнерами',
-                'Развертывание и настройка серверного окружения, CI/CD',
-                'Поддержка, сопровождение и рефакторинг legacy-проектов на PHP стеке',
-                'Интеграция товароучетными системами (1C, TradeX)',
-                'Проведение code-review',
-              ],
+              responsibilities: ['-'],
             },
           ],
         },
@@ -93,13 +72,7 @@ const content: { index: ResumeSchema } = {
               period: '01/2019 - 09/2020',
               title: 'Frontend developer',
               description: '',
-              responsibilities: [
-                'Разработка функционала SCADA-системы для взаимодействия и сбора данных на React.js + Redux',
-                'Участие в проработке и продумывание архитектуры приложения и новых модулей',
-                'Разработка технической и пользовательской документации',
-                'Участие в пуско-наладочных работах, проведение технического обслуживания программного обеспечения на объекте заказчика, обучение пользователей работе с системой',
-                'Проведение code-review',
-              ],
+              responsibilities: ['-'],
             },
           ],
         },
@@ -112,12 +85,11 @@ const content: { index: ResumeSchema } = {
               title: 'Software engineer',
               description: '',
               responsibilities: [
-                'Программирование ПЛК серии Мега в среде Codesys',
-                'Настройка протокола ModBus RTU и TCP',
-                'Разработка интерфейса пользователя в панелях оператора',
-                'Разработка графических компонентов для SCADA-системы с использованием HTML, CSS, JavaScript',
-                'Разработка технической и пользовательской документации',
-                'Участие в пуско-наладочных работах, проведение технического обслуживания систем на объекте',
+                'Developed a low-level library for seamless communication with Modbus RTU and TCP protocols, enabling efficient and reliable data exchange',
+
+                'Wrote and authored technical documentation for the usage of a low-level library, ensuring clear implementation and support for developers',
+
+                'Designed a testing rig based on the Mega12 controller for load testing Modbus and TCP ports of other controllers, ensuring reliability and performance under stress conditions',
               ],
             },
           ],

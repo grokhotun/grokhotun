@@ -6,7 +6,7 @@ const content: { index: ResumeSchema } = {
     subtitle: 'Javascript Frontend разработчик | React',
     skills: 'Навыки',
     experience: {
-      title: 'Опыт',
+      title: 'Опыт работы',
       content: [
         {
           title: 'Samolet Development',
