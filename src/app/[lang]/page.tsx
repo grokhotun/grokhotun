@@ -97,7 +97,7 @@ export default function Home(props: HomeProps) {
   const languages = Object.values<string>(t.raw('languages.content'));
 
   return (
-    <main className='py-9 mx-auto w-[210mm]'>
+    <main className='mx-auto w-[210mm] px-4 py-9'>
       <Box className='flex items-center'>
         <Title className='w-full' level={1}>
           {t('title')}
