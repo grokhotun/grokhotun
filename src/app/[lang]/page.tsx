@@ -61,6 +61,9 @@ const skills = [
   'npm',
   'yarn',
   'Storybook',
+  'Nx',
+  'Release-it',
+  'Lerna',
 
   'Jest',
   'End-to-end',
