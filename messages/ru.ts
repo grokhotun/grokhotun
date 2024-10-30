@@ -3,7 +3,12 @@ import { ResumeSchema } from '../src/types';
 const content: { index: ResumeSchema } = {
   index: {
     title: 'Аскар Яляев',
-    subtitle: 'Javascript Frontend разработчик | React',
+    subtitle: 'Javascript Frontend разработчик | React, TypeScript, Node.js',
+    summary: {
+      title: 'Обо мне',
+      content:
+        'Фронтенд-разработчик с опытом более 5 лет в разработке масштабируемых высоконагруженных web приложений',
+    },
     skills: 'Навыки',
     experience: {
       title: 'Опыт работы',

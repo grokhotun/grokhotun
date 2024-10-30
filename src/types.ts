@@ -21,8 +21,9 @@ type Experience = {
 export type ResumeSchema = {
   title: string;
   subtitle: string;
-  skills: string;
+  summary: Section<string>;
   experience: Section<Experience[]>;
   education: Section<Education[]>;
   languages: Section<string[]>;
+  skills: string;
 };

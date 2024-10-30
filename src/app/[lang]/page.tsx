@@ -4,7 +4,6 @@ import {
   Paragraph,
   Span,
   Link,
-  Divider,
   List,
   RussianFlag,
   BritishFlag,
@@ -30,6 +29,11 @@ const useLanguageLink = (lang: 'en' | 'ru') => {
 };
 
 const skills = [
+  'React',
+  'Next.js',
+  'Vue.js',
+  'Nuxt.js',
+
   'JavaScript',
   'TypeScript',
 
@@ -39,17 +43,17 @@ const skills = [
   'LESS',
   'styled-components',
   'tailwind',
-
-  'React',
-  'Next.js',
+  'Stitches',
 
   'Redux',
   'Zustand',
-  'ReactQuery',
+  'React Query',
   'Effector',
   'Microfrontends',
 
-  'Ant Design, Material UI, Radix UI, Stitches',
+  'Ant Design',
+  'Material UI',
+  'Radix UI',
 
   'Webpack',
   'Vite',
@@ -84,6 +88,7 @@ export default function Home(props: HomeProps) {
   unstable_setRequestLocale(props.params.lang);
   const [href, title] = useLanguageLink(props.params.lang);
   const t = useTranslations('index');
+  const summary = Object.values<any>(t.raw('summary'));
   const experience = Object.values<any>(t.raw('experience.content'));
   const education = Object.values<any>(t.raw('education.content'));
   const languages = Object.values<string>(t.raw('languages.content'));
@@ -115,6 +120,8 @@ export default function Home(props: HomeProps) {
           https://t.me/skrylyv
         </Link>
       </Box>
+      <Title level={3}>{t('summary.title')}</Title>
+      <Paragraph>{t('summary.content')}</Paragraph>
       <Title level={3}>{t('experience.title')}</Title>
       {experience.map(company => (
         <React.Fragment key={company.title}>

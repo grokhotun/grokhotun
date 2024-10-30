@@ -3,7 +3,12 @@ import { ResumeSchema } from '@/types';
 const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
-    subtitle: 'Javascript Frontend developer | React',
+    subtitle: 'Javascript Frontend Engineer | React, TypeScript, Node.js',
+    summary: {
+      title: 'Summary',
+      content:
+        'Frontend engineer with 5 years of experience in developing scalable systems including e-commerce platforms, high-load web applications',
+    },
     skills: 'Skills',
     experience: {
       title: 'Work experience',
