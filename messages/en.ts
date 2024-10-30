@@ -72,6 +72,8 @@ const content: { index: ResumeSchema } = {
 
                 "Improved the client's website indexing through SEO optimizations, boosting its search ranking from the second page to the top of the first page",
 
+                'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by 2x through timely, personalized messages aligned with customer needs',
+
                 'Developed an algorithm to integrate the e-commerce database with the TradeX inventory management system, optimizing data synchronization and workflow efficiency',
               ],
             },
