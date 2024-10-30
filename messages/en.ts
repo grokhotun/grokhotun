@@ -85,7 +85,11 @@ const content: { index: ResumeSchema } = {
               period: '01/2019 - 09/2020',
               title: 'Frontend developer',
               description: '',
-              responsibilities: ['-'],
+              responsibilities: [
+                'Developed and maintained SCADA system functionality "Kaskad"',
+
+                'Participated in commissioning activities, provided on-site software maintenance',
+              ],
             },
           ],
         },
@@ -94,7 +98,7 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: '01/2018 - 01/2019',
+              period: '08/2018 - 01/2019',
               title: 'Software engineer',
               description: '',
               responsibilities: [
