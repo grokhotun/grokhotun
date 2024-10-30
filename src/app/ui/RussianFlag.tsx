@@ -1,6 +1,6 @@
 export const RussianFlag = () => {
   return (
-    <span className='text-[24px]'>
+    <span className='text-[24px] print:hidden'>
       <svg
         xmlns='http://www.w3.org/2000/svg'
         viewBox='0 0 9 6'
