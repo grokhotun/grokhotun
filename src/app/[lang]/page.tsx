@@ -91,7 +91,6 @@ export default function Home(props: HomeProps) {
   unstable_setRequestLocale(props.params.lang);
   const [href, title] = useLanguageLink(props.params.lang);
   const t = useTranslations('index');
-  const summary = Object.values<any>(t.raw('summary'));
   const experience = Object.values<any>(t.raw('experience.content'));
   const education = Object.values<any>(t.raw('education.content'));
   const languages = Object.values<string>(t.raw('languages.content'));
@@ -104,7 +103,7 @@ export default function Home(props: HomeProps) {
         </Title>
         <NextLink href={href}>{title}</NextLink>
       </Box>
-      <Title level={2}>{t('subtitle')}</Title>
+      <Paragraph className='font-semibold'>{t('subtitle')}</Paragraph>
       <Box>
         <Span>LinkedIn: </Span>
         <Link target='_blank' href='https://www.linkedin.com/in/askar-yalyaev/'>
@@ -123,20 +122,20 @@ export default function Home(props: HomeProps) {
           https://t.me/skrylyv
         </Link>
       </Box>
-      <Title level={3}>{t('summary.title')}</Title>
+      <Title level={2}>{t('summary.title')}</Title>
       <Paragraph>{t('summary.content')}</Paragraph>
-      <Title level={3}>{t('experience.title')}</Title>
+      <Title level={2}>{t('experience.title')}</Title>
       {experience.map(company => (
         <React.Fragment key={company.title}>
-          <Title level={4}>{company.title}</Title>
+          <Title level={3}>{company.title}</Title>
           <Paragraph className='italic font-light'>{company.place}</Paragraph>
           {Object.values<any>(company.positions).map(position => (
             <React.Fragment key={position.title}>
               <Box className='flex items-center'>
-                <Title level={5} className='grow'>
+                <Title level={4} className='grow'>
                   {position.title}
                 </Title>
-                <Paragraph className='my-2 italic text-base font-light'>
+                <Paragraph className='my-1 italic text-base font-light'>
                   {position.period}
                 </Paragraph>
               </Box>
@@ -145,30 +144,32 @@ export default function Home(props: HomeProps) {
                 {Object.values<string>(position.responsibilities)
                   .filter(responsibility => !!responsibility)
                   .map(responsibility => (
-                    <List.Item key={responsibility}>{responsibility}</List.Item>
+                    <List.Item key={responsibility}>
+                      <Paragraph>{responsibility}</Paragraph>
+                    </List.Item>
                   ))}
               </List>
             </React.Fragment>
           ))}
         </React.Fragment>
       ))}
-      <Title level={3}>{t('skills')}</Title>
+      <Title level={2}>{t('skills')}</Title>
       <Paragraph>{skills.join(', ')}</Paragraph>
-      <Title level={3}>{t('education.title')}</Title>
+      <Title level={2}>{t('education.title')}</Title>
       {education.map(education => (
         <React.Fragment key={education.title}>
           <Box className='flex items-center'>
             <Title level={4} className='grow'>
               {education.title}
             </Title>
-            <Paragraph className='my-2 italic text-base font-light'>
+            <Paragraph className='my-1 italic text-base font-light'>
               {education.period}
             </Paragraph>
           </Box>
           <Paragraph>{education.description}</Paragraph>
         </React.Fragment>
       ))}
-      <Title level={3}>{t('languages.title')}</Title>
+      <Title level={2}>{t('languages.title')}</Title>
       <List>
         {languages.map(language => (
           <List.Item key={language}>{language}</List.Item>

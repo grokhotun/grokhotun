@@ -5,13 +5,13 @@ const content: { index: ResumeSchema } = {
     title: 'Askar Yalyaev',
     subtitle: 'Javascript Frontend Engineer | React, TypeScript, Node.js',
     summary: {
-      title: 'Summary',
+      title: 'About',
       content:
         'Frontend engineer with 5 years of experience in developing scalable systems including e-commerce platforms, high-load web applications',
     },
     skills: 'Skills',
     experience: {
-      title: 'Work experience',
+      title: 'Experience',
       content: [
         {
           title: 'Samolet Development',

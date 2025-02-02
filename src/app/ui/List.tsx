@@ -15,7 +15,7 @@ const BaseList: React.FC<ListProps> = ({ children, className, ...rest }) => {
   return (
     <ul
       {...rest}
-      className={cn(['my-2 pl-4 list-disc list-inside text-base', className])}
+      className={cn(['my-2 pl-4 list-disc list-outside text-base', className])}
     >
       {children}
     </ul>

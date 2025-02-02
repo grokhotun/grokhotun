@@ -9,7 +9,7 @@ export const Paragraph: React.FC<ParagraphProps> = ({
   ...rest
 }) => {
   return (
-    <p {...rest} className={cn(['text-base', className])}>
+    <p {...rest} className={cn(['text-base', 'text-justify', className])}>
       {children}
     </p>
   );
