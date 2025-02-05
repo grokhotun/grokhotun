@@ -12,7 +12,6 @@ import {
 import dayjs from 'dayjs';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
-import NextLink from 'next/link';
 
 const duration = (start: string, end: string) => {
   const difference = dayjs(end).diff(dayjs(start), 'months');
@@ -47,6 +46,7 @@ const skills = [
   'TypeScript',
 
   'HTML',
+  'HTML5',
   'CSS',
   'SASS',
   'LESS',
@@ -67,18 +67,26 @@ const skills = [
   'Webpack',
   'Vite',
   'Node.js',
+  'Nginx',
   'npm',
   'yarn',
   'Storybook',
   'Nx',
   'Release-it',
   'Lerna',
+  'Eslint',
+  'Prettier',
 
   'Jest',
   'End-to-end',
   'Puppeter',
   'Test Driven Development',
   'React Testing Library',
+  'Enzyme',
+  'Playwright',
+  'Sentry',
+  'Allure',
+  'Grafana',
 
   'Websocket',
   'REST API ',
@@ -87,11 +95,15 @@ const skills = [
   'Docker',
   'docker-compose',
   'k8s',
+  'CI/CD',
 
   'Jira',
+  'Confluence',
   'Figma',
   'Git',
   'SCRUM',
+  'Gitlab',
+  'Github',
 ];
 
 type HomeProps = { params: { lang: 'en' | 'ru' } };
@@ -168,7 +180,9 @@ export default function Home(props: HomeProps) {
                     .filter(responsibility => !!responsibility)
                     .map(responsibility => (
                       <List.Item key={responsibility}>
-                        <Paragraph>{responsibility}</Paragraph>
+                        <Paragraph
+                          dangerouslySetInnerHTML={{ __html: responsibility }}
+                        ></Paragraph>
                       </List.Item>
                     ))}
                 </List>

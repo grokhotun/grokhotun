@@ -18,29 +18,29 @@ const content: { index: ResumeSchema } = {
           place: 'Moscow, Russia',
           positions: [
             {
-              period: ['2023-07-01', 'Present'],
+              period: ['2023-09-01', 'Present'],
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
-                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistence by 92% and reduce design debt',
+                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistence by <b>92%</b> and reduce design debt',
 
-                'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating feature delivery by 23%',
+                'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating feature delivery by <b>23%</b>',
 
-                'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and reducing onboarding time for new developers by 57%',
+                'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and reducing onboarding time for new developers by <b>57%</b>',
 
                 'Configured CI/CD pipelines in GitLab to automate snapshot testing, ensuring UI stability and preventing regressions across the design system',
               ],
             },
             {
-              period: ['2022-08-01', '2023-07-01'],
+              period: ['2022-08-01', '2023-09-01'],
               title: 'Frontend developer',
               description: '',
               responsibilities: [
-                'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by 26.8%, enhancing performance and improving loading time',
+                'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by <b>26.8%</b>, enhancing performance and improving loading time',
 
                 'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development team',
 
-                'Managed the end-to-end recruitment process, identifying and interviewing candidates, and successfully hired 5 developers with the right expertise for each project',
+                'Managed the end-to-end recruitment process, identifying and interviewing candidates, and successfully hired <b>5 developers</b> with the right expertise for each project',
               ],
             },
           ],
@@ -55,9 +55,9 @@ const content: { index: ResumeSchema } = {
               description:
                 'Outstaffed to "Samolet Group" as a frontend engineer',
               responsibilities: [
-                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by 10.9%',
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by <b>10.9%</b>',
 
-                'Increased unit test coverage from 44.3% to 86.7%, significantly improving code reliability and reducing the risk of defects',
+                'Increased unit test coverage from <b>44.3% to 86.7%</b>, significantly improving code reliability and reducing the risk of defects',
               ],
             },
           ],
@@ -71,9 +71,9 @@ const content: { index: ResumeSchema } = {
               title: 'Fullstack developer',
               description: '',
               responsibilities: [
-                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by 24.9% and effectively capturing the mobile audience',
+                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by <b>24.9%</b> and effectively capturing the mobile audience',
 
-                "Improved the client's website indexing through SEO optimizations, boosting its search ranking from the second page to the top of the first page",
+                "Improved the client's website indexing through SEO optimizations, boosting its search ranking from <b>the second page to the top of the first page</b>",
 
                 'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by 2x through timely, personalized messages aligned with customer needs',
 
@@ -87,7 +87,7 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: ['2019-01-09', '2020-09-01'],
+              period: ['2019-01-01', '2020-09-01'],
               title: 'Frontend developer',
               description: '',
               responsibilities: [
@@ -103,7 +103,7 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: ['2018-08-01', '2019-01-01'],
+              period: ['2018-06-01', '2019-01-01'],
               title: 'Software engineer',
               description: '',
               responsibilities: [
