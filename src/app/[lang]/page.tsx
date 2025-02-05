@@ -166,7 +166,7 @@ export default function Home(props: HomeProps) {
             {Object.values<any>(company.positions).map(position => (
               <React.Fragment key={position.title}>
                 <Box className='flex items-center'>
-                  <Title level={5} className='grow'>
+                  <Title level={5} className='grow italic'>
                     {position.title}
                   </Title>
                   <Paragraph className='my-1 italic text-base font-light'>

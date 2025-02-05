@@ -7,14 +7,14 @@ const content: { index: ResumeSchema } = {
     summary: {
       title: 'About',
       content:
-        'Frontend Engineer with 5+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Skilled in developing responsive, user-friendly interfaces and optimizing web performance. Passionate about delivering intuitive user experiences and writing clean, maintainable code. Strong knowledge of modern frontend technologies and frameworks.',
+        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Mainly I work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development of a design system. Skilled in developing responsive, user-friendly interfaces and optimizing web performance.',
     },
     skills: 'Skills',
     experience: {
       title: 'Experience',
       content: [
         {
-          title: 'Samolet Development',
+          title: 'Samolet Group',
           place: 'Moscow, Russia',
           link: 'https://samolet.ru/en/investors/about_us/',
           positions: [
