@@ -131,13 +131,13 @@ export default function Home(props: HomeProps) {
             target='_blank'
             href='https://www.linkedin.com/in/askar-yalyaev/'
           >
-            linkedin.com/in/askar-yalyaev/
+            LinkedIn
           </Link>
           <Link target='_blank' href='mailto:askarrussia@gmail.com'>
-            askarrussia@gmail.com
+            Gmail
           </Link>
           <Link target='_blank' href='https://t.me/skrylyv'>
-            https://t.me/skrylyv
+            Telegram
           </Link>
         </Box>
       </Box>
