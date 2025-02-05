@@ -16,6 +16,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Samolet Development',
           place: 'Москва, Россия',
+          link: '',
           positions: [
             {
               period: ['07/2023', 'по настоящее время'],
@@ -52,6 +53,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'kt.team',
           place: 'Тольятти, Россия',
+          link: '',
           positions: [
             {
               period: ['05/2021', '08/2022'],
@@ -74,6 +76,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Artmax',
           place: 'Уфа, Россия',
+          link: '',
           positions: [
             {
               period: ['09/2020', '05/2021'],
@@ -95,6 +98,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'СибКом',
           place: 'Уфа, Россия',
+          link: '',
           positions: [
             {
               period: ['01/2019', '09/2020'],
@@ -114,6 +118,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Авиатрон (ex. Intek)',
           place: 'Уфа, Россия',
+          link: '',
           positions: [
             {
               period: ['01/2018', '01/2019'],

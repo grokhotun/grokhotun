@@ -19,6 +19,7 @@ type Position = {
 type Experience = {
   title: string;
   place: string;
+  link: string;
   positions: Position[];
 };
 

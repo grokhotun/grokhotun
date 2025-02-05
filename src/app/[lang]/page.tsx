@@ -152,7 +152,13 @@ export default function Home(props: HomeProps) {
         {experience.map(company => (
           <Box key={company.title}>
             <Box className='flex justify-between'>
-              <Title level={3}>{company.title}</Title>
+              <Title level={3}>
+                {company.link ? (
+                  <a href={company.link}>{company.title}</a>
+                ) : (
+                  company.title
+                )}
+              </Title>
               <Paragraph className='italic font-light'>
                 {company.place}
               </Paragraph>

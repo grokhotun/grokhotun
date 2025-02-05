@@ -16,6 +16,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Samolet Development',
           place: 'Moscow, Russia',
+          link: 'https://samolet.ru/en/investors/about_us/',
           positions: [
             {
               period: ['2023-09-01', 'Present'],
@@ -48,6 +49,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'kt.team',
           place: 'Togliatti, Russia',
+          link: 'https://kt.team/en/',
           positions: [
             {
               period: ['2021-04-01', '2022-08-01'],
@@ -65,6 +67,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Artmax',
           place: 'Ufa, Russia',
+          link: '',
           positions: [
             {
               period: ['2020-09-01', '2021-04-01'],
@@ -85,6 +88,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Sybcom',
           place: 'Ufa, Russia',
+          link: '',
           positions: [
             {
               period: ['2019-01-01', '2020-09-01'],
@@ -101,6 +105,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Aviatron (ex. Intek)',
           place: 'Ufa, Russia',
+          link: '',
           positions: [
             {
               period: ['2018-06-01', '2019-01-01'],
