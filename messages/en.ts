@@ -3,7 +3,7 @@ import { ResumeSchema } from '@/types';
 const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
-    subtitle: 'Javascript Frontend Engineer | React, TypeScript, Node.js',
+    subtitle: 'Javascript Frontend Engineer',
     summary: {
       title: 'About',
       content:
@@ -18,7 +18,7 @@ const content: { index: ResumeSchema } = {
           place: 'Moscow, Russia',
           positions: [
             {
-              period: '07/2023 - Present',
+              period: ['2023-07-01', 'Present'],
               title: 'Frontend Lead, design system',
               description: 'Head of design system developing',
               responsibilities: [
@@ -30,11 +30,11 @@ const content: { index: ResumeSchema } = {
               ],
             },
             {
-              period: '08/2022 - 07/2023',
+              period: ['2022-08-01', '2023-07-01'],
               title: 'Frontend developer',
               description: '',
               responsibilities: [
-                'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by 30%, enhancing performance and improving loading time',
+                'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by 26.8%, enhancing performance and improving loading time',
 
                 'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development team',
 
@@ -48,13 +48,14 @@ const content: { index: ResumeSchema } = {
           place: 'Togliatti, Russia',
           positions: [
             {
-              period: '05/2021 - 08/2022',
+              period: ['2021-04-01', '2022-08-01'],
               title: 'Frontend developer',
-              description: '',
+              description:
+                'Outstaffed to "Samolet Group" as a frontend engineer',
               responsibilities: [
-                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by 12%',
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by 10.9%',
 
-                'Increased unit test coverage from 62% to 86%, significantly improving code reliability and reducing the risk of defects',
+                'Increased unit test coverage from 44.3% to 86.7%, significantly improving code reliability and reducing the risk of defects',
               ],
             },
           ],
@@ -64,11 +65,11 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: '09/2020 - 05/2021',
+              period: ['2020-09-01', '2021-04-01'],
               title: 'Fullstack developer',
               description: '',
               responsibilities: [
-                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by 30% and effectively capturing the mobile audience',
+                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by 24.9% and effectively capturing the mobile audience',
 
                 "Improved the client's website indexing through SEO optimizations, boosting its search ranking from the second page to the top of the first page",
 
@@ -84,7 +85,7 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: '01/2019 - 09/2020',
+              period: ['2019-01-09', '2020-09-01'],
               title: 'Frontend developer',
               description: '',
               responsibilities: [
@@ -100,7 +101,7 @@ const content: { index: ResumeSchema } = {
           place: 'Ufa, Russia',
           positions: [
             {
-              period: '08/2018 - 01/2019',
+              period: ['2018-08-01', '2019-01-01'],
               title: 'Software engineer',
               description: '',
               responsibilities: [
@@ -121,7 +122,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Ufa State Aviation Technical University',
           description: 'Bachelor of computer science and robotics',
-          period: '09/2014 - 08/2018',
+          period: ['2014-09-01', '2018-09-01'],
         },
       ],
     },

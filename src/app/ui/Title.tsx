@@ -29,11 +29,11 @@ export const Title: React.FC<TitleProps> = ({
       {...rest}
       className={cn(
         {
-          'mb-1 text-3xl font-bold': level === 1,
-          'mb-1 text-2xl font-bold': level === 2,
-          'my-1 text-xl font-bold': level === 3,
-          'my-1 text-lg font-bold': level === 4,
-          'my-1 text-base font-bold': level === 5,
+          'text-3xl font-bold': level === 1,
+          'text-2xl font-bold': level === 2,
+          'text-xl font-bold': level === 3,
+          'text-lg font-bold': level === 4,
+          'text-base font-bold': level === 5,
         },
         className,
       )}

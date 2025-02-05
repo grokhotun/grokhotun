@@ -3,12 +3,16 @@ type Section<T> = {
   content: T;
 };
 
-type Education = { title: string; description: string; period: string };
+type Education = {
+  title: string;
+  description: string;
+  period: [string, string];
+};
 
 type Position = {
   title: string;
   description: string;
-  period: string;
+  period: [string, string];
   responsibilities: string[];
 };
 

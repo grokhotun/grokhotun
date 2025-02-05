@@ -18,7 +18,7 @@ const content: { index: ResumeSchema } = {
           place: 'Москва, Россия',
           positions: [
             {
-              period: '07/2023 - по настоящее время',
+              period: ['07/2023', 'по настоящее время'],
               title: 'Frontend Lead, дизайн система',
               description: 'Работа над внутренней дизайн-системой',
               responsibilities: [
@@ -33,7 +33,7 @@ const content: { index: ResumeSchema } = {
               ],
             },
             {
-              period: '08/2022 - 07/2023',
+              period: ['08/2022', '07/2023'],
               title: 'Frontend разработчик',
               description: 'Работа над внутренними сервисами',
               responsibilities: [
@@ -54,7 +54,7 @@ const content: { index: ResumeSchema } = {
           place: 'Тольятти, Россия',
           positions: [
             {
-              period: '05/2021 - 08/2022',
+              period: ['05/2021', '08/2022'],
               title: 'Frontend разработчик',
               description:
                 'Разработка внутренних сервисов в компании Samolet Development',
@@ -76,7 +76,7 @@ const content: { index: ResumeSchema } = {
           place: 'Уфа, Россия',
           positions: [
             {
-              period: '09/2020 - 05/2021',
+              period: ['09/2020', '05/2021'],
               title: 'Fullstack разработчик',
               description:
                 'Заказная разработка интернет-магазинов, сайт-визиток, лендингов под ключ',
@@ -97,7 +97,7 @@ const content: { index: ResumeSchema } = {
           place: 'Уфа, Россия',
           positions: [
             {
-              period: '01/2019 - 09/2020',
+              period: ['01/2019', '09/2020'],
               title: 'Frontend разработчик',
               description: 'Работа над внутренней SCADA-системой',
               responsibilities: [
@@ -116,7 +116,7 @@ const content: { index: ResumeSchema } = {
           place: 'Уфа, Россия',
           positions: [
             {
-              period: '01/2018 - 01/2019',
+              period: ['01/2018', '01/2019'],
               title: 'Программист-разработчик',
               description:
                 'Работа над программным обеспечением для продуктов Мега12, MegaWeb',
@@ -139,7 +139,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Уфимский Авиационный Технический Университет',
           description: 'Бакалавр, Информатика и вычислительная техника',
-          period: '09/2014 - 08/2018',
+          period: ['09/2014', '08/2018'],
         },
       ],
     },
