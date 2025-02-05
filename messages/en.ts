@@ -3,11 +3,11 @@ import { ResumeSchema } from '@/types';
 const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
-    subtitle: 'Javascript Frontend Engineer',
+    subtitle: 'Senior Javascript Frontend Engineer',
     summary: {
       title: 'About',
       content:
-        'Frontend engineer with 5 years of experience in developing scalable systems including e-commerce platforms, high-load web applications',
+        'Frontend Engineer with 5+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Skilled in developing responsive, user-friendly interfaces and optimizing web performance. Passionate about delivering intuitive user experiences and writing clean, maintainable code. Strong knowledge of modern frontend technologies and frameworks.',
     },
     skills: 'Skills',
     experience: {
@@ -20,13 +20,15 @@ const content: { index: ResumeSchema } = {
             {
               period: ['2023-07-01', 'Present'],
               title: 'Frontend Lead, design system',
-              description: 'Head of design system developing',
+              description: 'Head of Design System Development',
               responsibilities: [
-                'Developed a design system, establishing a unified visual language, improving development efficiency',
+                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistence by 92% and reduce design debt',
 
-                'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating development cycles',
+                'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating feature delivery by 23%',
 
-                'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and ensuring consistency across the development team',
+                'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and reducing onboarding time for new developers by 57%',
+
+                'Configured CI/CD pipelines in GitLab to automate snapshot testing, ensuring UI stability and preventing regressions across the design system',
               ],
             },
             {
