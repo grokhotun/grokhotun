@@ -7,7 +7,7 @@ const content: { index: ResumeSchema } = {
     summary: {
       title: 'About',
       content:
-        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Mainly I work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development of a design system. Skilled in developing responsive, user-friendly interfaces and optimizing web performance',
+        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. I mainly work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development and adoption of a design system. Experienced in building responsive, user-friendly interfaces and optimizing web performance for high-load applications',
     },
     skills: 'Skills',
     experience: {
@@ -24,13 +24,13 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
-                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistence by <b>92%</b> and reduce design debt',
+                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistency by <b>92%</b> and reducing design debt',
 
                 'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating feature delivery by <b>23%</b>',
 
                 'Created and maintained comprehensive Storybook documentation for developers, streamlining UI component usage and reducing onboarding time for new developers by <b>57%</b>',
 
-                'Configured CI/CD pipelines in GitLab to automate snapshot testing, ensuring UI stability and preventing regressions across the design system',
+                'Configured CI/CD pipelines in GitLab to enable automated snapshot testing, ensuring UI stability and preventing regressions across the design system',
               ],
             },
             {
@@ -45,7 +45,7 @@ const content: { index: ResumeSchema } = {
 
                 'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development teams',
 
-                'Managed the end-to-end recruitment process, identifying and interviewing candidates, and successfully hired <b>5 developers</b> with the right expertise for each project',
+                'Led the end-to-end recruitment process, conducting multiple interviews and successfully hiring <b>5 developers</b>',
               ],
             },
           ],
@@ -62,11 +62,11 @@ const content: { index: ResumeSchema } = {
               description:
                 'Outstaffed to "Samolet Group" as a frontend engineer',
               responsibilities: [
-                'Contributed to the development of a first-to-market product, leading to a successful launch and generating revenue from the first release',
+                'Contributed to the development of a first-to-market product, leading to a successful launch and generating revenue from launch',
 
-                'Refactored editable tables across five key service screens, reducing re-renders and improving performance, leading to a First Contentful Paint (FCP) improvement from <b>3.2s</b> to <b>1.8s</b> and a Largest Contentful Paint (LCP) reduction from <b>5.5s</b> to <b>2.1s</b>',
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance, improving FCP from <b>3.2s</b> to <b>1.8s</b> and reducing LCP from <b>5.5s</b> to <b>2.1s</b>',
 
-                'Increased unit test coverage from <b>44.3% to 86.7%</b>, significantly improving code reliability and reducing the risk of defects',
+                'Increased unit test coverage from <b>44.3% to 86.7%</b>, significantly improving code reliability and reducing the potential for defects',
               ],
             },
           ],
@@ -84,9 +84,9 @@ const content: { index: ResumeSchema } = {
               responsibilities: [
                 'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by <b>58.3%</b> and effectively capturing the mobile audience',
 
-                "Improved the client's website indexing through SEO optimizations, boosting its search ranking from <b>the second page to the top of the first page</b>",
+                "Improved the client's website indexing through SEO optimizations, boosting its search ranking from <b>the second page to a first-page ranking</b>",
 
-                'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by 2x and increasing revenue from email marketing by 12-18% through timely, personalized product recommendations aligned with customer needs',
+                'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by doubling conversion rates and increasing revenue from email marketing by 12-18% through timely, personalized product recommendations aligned with customer needs',
 
                 'Developed an algorithm to integrate the e-commerce database with the TradeX inventory management system, optimizing data synchronization and workflow efficiency',
               ],
@@ -104,9 +104,13 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend developer',
               description: '',
               responsibilities: [
-                'Developed and maintained SCADA system functionality "Kaskad"',
+                'Developed and maintained the SCADA system "Kaskad", implementing real-time data visualization and industrial process monitoring',
 
-                'Participated in commissioning activities, provided on-site software maintenance',
+                'Integrated WebSocket-based real-time data updates, ensuring instant visualization of sensor readings and alarms',
+
+                'Developed dashboards for Weintek HMI panels, ensuring seamless operator interaction with industrial processes',
+
+                'Participated in commissioning activities and provided on-site software maintenance',
               ],
             },
           ],
@@ -124,9 +128,11 @@ const content: { index: ResumeSchema } = {
               responsibilities: [
                 'Developed a low-level library for seamless communication with Modbus RTU and TCP protocols, enabling efficient and reliable data exchange',
 
-                'Wrote and authored technical documentation for the usage of a low-level library, ensuring clear implementation and support for developers',
+                'Wrote technical documentation for the usage of a low-level library, ensuring clear implementation and support for developers',
 
-                'Designed a testing rig based on the Mega12 controller for load testing Modbus and TCP ports of other controllers, ensuring reliability and performance under stress conditions',
+                'Designed a testing rig based on the Mega12 controller for load testing Modbus and TCP ports of other controllers, ensuring reliability and performance under high-load conditions',
+
+                'Developed dynamic mimic diagrams for a "MegaWeb" SCADA system, enabling real-time monitoring and control of industrial processes with enhanced visualization and user interaction',
               ],
             },
           ],
