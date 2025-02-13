@@ -41,7 +41,7 @@ const content: { index: ResumeSchema } = {
               responsibilities: [
                 'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by <b>26.8%</b>, enhancing performance and improving loading time',
 
-                'Implemented a microfrontend architecture, enabling independent deployment and scaling of key services, which improved development speed and maintainability',
+                'Implemented a microfrontend architecture, enabling independent deployment and scaling of key services, which improved development speed and maintainability, increasing <b>CSI</b> from <b>5.9</b> to <b>8.3</b>',
 
                 'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development teams',
 
@@ -64,7 +64,7 @@ const content: { index: ResumeSchema } = {
               responsibilities: [
                 'Contributed to the development of a first-to-market product, leading to a successful launch and generating revenue from launch',
 
-                'Refactored editable tables across five key service screens, reducing re-renders and improving performance, improving FCP from <b>3.2s</b> to <b>1.8s</b> and reducing LCP from <b>5.5s</b> to <b>2.1s</b>',
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance, improving <b>FCP</b> from <b>3.2s</b> to <b>1.8s</b> and reducing <b>LCP</b> from <b>5.5s</b> to <b>2.1s</b>',
 
                 'Increased unit test coverage from <b>44.3% to 86.7%</b>, significantly improving code reliability and reducing the potential for defects',
               ],
