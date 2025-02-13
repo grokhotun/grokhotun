@@ -134,10 +134,10 @@ export default function Home(props: HomeProps) {
             LinkedIn
           </Link>
           <Link target='_blank' href='mailto:askarrussia@gmail.com'>
-            Gmail
+            askarrussia@gmail.com
           </Link>
           <Link target='_blank' href='https://t.me/skrylyv'>
-            Telegram
+            https://t.me/skrylyv
           </Link>
         </Box>
       </Box>
@@ -169,7 +169,7 @@ export default function Home(props: HomeProps) {
                   <Title level={5} className='grow italic'>
                     {position.title}
                   </Title>
-                  <Paragraph className='my-1 italic text-base font-light'>
+                  <Paragraph className='my-1 italic text-base font-light flex gap-1'>
                     <span>
                       {position.period
                         .map((p: string) => {
@@ -178,6 +178,7 @@ export default function Home(props: HomeProps) {
                         })
                         .join(' - ')}
                     </span>
+                    {position.duration && <span>({position.duration})</span>}
                   </Paragraph>
                 </Box>
                 <Paragraph>{position.description}</Paragraph>

@@ -12,6 +12,7 @@ type Education = {
 type Position = {
   title: string;
   description: string;
+  duration?: string;
   period: [string, string];
   responsibilities: string[];
 };

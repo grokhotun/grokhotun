@@ -7,7 +7,7 @@ const content: { index: ResumeSchema } = {
     summary: {
       title: 'About',
       content:
-        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Mainly I work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development of a design system. Skilled in developing responsive, user-friendly interfaces and optimizing web performance.',
+        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. Mainly I work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development of a design system. Skilled in developing responsive, user-friendly interfaces and optimizing web performance',
     },
     skills: 'Skills',
     experience: {
@@ -20,6 +20,7 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2023-09-01', 'Present'],
+              duration: '2.7 years',
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
@@ -34,12 +35,15 @@ const content: { index: ResumeSchema } = {
             },
             {
               period: ['2022-08-01', '2023-09-01'],
+              duration: '1.2 years',
               title: 'Frontend developer',
               description: '',
               responsibilities: [
                 'Conducted an audit to identify bottlenecks within the application, successfully reducing the bundle size by <b>26.8%</b>, enhancing performance and improving loading time',
 
-                'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development team',
+                'Implemented a microfrontend architecture, enabling independent deployment and scaling of key services, which improved development speed and maintainability',
+
+                'Developed and wrote a comprehensive guide for utilizing dynamic environment variables in web applications, enhancing flexibility and simplifying configuration management for the development teams',
 
                 'Managed the end-to-end recruitment process, identifying and interviewing candidates, and successfully hired <b>5 developers</b> with the right expertise for each project',
               ],
@@ -53,11 +57,14 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2021-04-01', '2022-08-01'],
+              duration: '1.5 years',
               title: 'Frontend developer',
               description:
                 'Outstaffed to "Samolet Group" as a frontend engineer',
               responsibilities: [
-                'Refactored editable tables across five key service screens, reducing re-renders and improving performance by <b>10.9%</b>',
+                'Contributed to the development of a first-to-market product, leading to a successful launch and generating revenue from the first release',
+
+                'Refactored editable tables across five key service screens, reducing re-renders and improving performance, leading to a First Contentful Paint (FCP) improvement from <b>3.2s</b> to <b>1.8s</b> and a Largest Contentful Paint (LCP) reduction from <b>5.5s</b> to <b>2.1s</b>',
 
                 'Increased unit test coverage from <b>44.3% to 86.7%</b>, significantly improving code reliability and reducing the risk of defects',
               ],
@@ -71,14 +78,15 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2020-09-01', '2021-04-01'],
+              duration: '8 months',
               title: 'Fullstack developer',
               description: '',
               responsibilities: [
-                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by <b>24.9%</b> and effectively capturing the mobile audience',
+                'Designed and implemented a mobile version of the client’s e-commerce site, increasing unique users by <b>58.3%</b> and effectively capturing the mobile audience',
 
                 "Improved the client's website indexing through SEO optimizations, boosting its search ranking from <b>the second page to the top of the first page</b>",
 
-                'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by 2x through timely, personalized messages aligned with customer needs',
+                'Developed a trigger-based email campaign mechanism for an e-commerce platform, boosting conversion rates by 2x and increasing revenue from email marketing by 12-18% through timely, personalized product recommendations aligned with customer needs',
 
                 'Developed an algorithm to integrate the e-commerce database with the TradeX inventory management system, optimizing data synchronization and workflow efficiency',
               ],
@@ -92,6 +100,7 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2019-01-01', '2020-09-01'],
+              duration: '1.9 years',
               title: 'Frontend developer',
               description: '',
               responsibilities: [
@@ -109,6 +118,7 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2018-06-01', '2019-01-01'],
+              duration: '8 months',
               title: 'Software engineer',
               description: '',
               responsibilities: [
