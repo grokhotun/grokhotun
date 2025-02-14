@@ -4,6 +4,7 @@ const content: { index: ResumeSchema } = {
   index: {
     title: 'Askar Yalyaev',
     subtitle: 'Senior Javascript Frontend Engineer',
+    thirdtitle: '6+ years of experience',
     summary: {
       title: 'About',
       content:

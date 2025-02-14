@@ -124,7 +124,7 @@ export default function Home(props: HomeProps) {
             {t('title')}
           </Title>
           <Paragraph className='font-semibold'>{t('subtitle')}</Paragraph>
-          <Paragraph>6+ years of experience</Paragraph>
+          <Paragraph>{t('thirdtitle')}</Paragraph>
         </Box>
         <Box className='flex-1 flex flex-col items-end'>
           <Link
