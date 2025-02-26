@@ -8,7 +8,7 @@ const content: { index: ResumeSchema } = {
     summary: {
       title: 'About',
       content:
-        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. I mainly work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development and adoption of a design system. Experienced in building responsive, user-friendly interfaces and optimizing web performance for high-load applications',
+        'Frontend Engineer с более чем 6-летним опытом разработки масштабируемых и высокопроизводительных веб-приложений, включая E-commerce платформы и высоконагруженные системы. В основном работаю с TypeScript и React, но также имею опыт работы с Vue.js. Последние два года занимался разработкой и внедрением дизайн-системы.',
     },
     skills: 'Skills',
     experience: {
@@ -25,7 +25,7 @@ const content: { index: ResumeSchema } = {
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
-                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistency by <b>92%</b> and reducing design debt',
+                'Developed a design system, establishing a unified visual language, improving development efficiency, improved UI consistency by <b>92%</b>, reducing design debt, and accelerating time to market by <b>17.6%</b> through faster design iterations and component reuse',
 
                 'Implemented a streamlined process for contributing new features and bug fixes, improving collaboration, code quality, and accelerating feature delivery by <b>23%</b>',
 

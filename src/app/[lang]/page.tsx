@@ -154,7 +154,9 @@ export default function Home(props: HomeProps) {
             <Box className='flex justify-between'>
               <Title level={3}>
                 {company.link ? (
-                  <a href={company.link}>{company.title}</a>
+                  <a target='_blank' href={company.link}>
+                    {company.title}
+                  </a>
                 ) : (
                   company.title
                 )}

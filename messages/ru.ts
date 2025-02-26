@@ -3,8 +3,8 @@ import { ResumeSchema } from '../src/types';
 const content: { index: ResumeSchema } = {
   index: {
     title: 'Аскар Яляев',
-    subtitle: 'Javascript Frontend разработчик',
-    thirdtitle: '',
+    subtitle: 'Senior Javascript Frontend разработчик',
+    thirdtitle: '6+ лет опыта',
     summary: {
       title: 'Обо мне',
       content:
@@ -17,7 +17,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Samolet Development',
           place: 'Москва, Россия',
-          link: '',
+          link: 'https://samolet.ru/',
           positions: [
             {
               period: ['07/2023', 'по настоящее время'],
@@ -55,7 +55,7 @@ const content: { index: ResumeSchema } = {
         {
           title: 'kt.team',
           place: 'Тольятти, Россия',
-          link: '',
+          link: 'https://www.kt-team.ru/',
           positions: [
             {
               period: ['05/2021', '08/2022'],
