@@ -6,13 +6,13 @@ type Section<T> = {
 type Education = {
   title: string;
   description: string;
+  link: string;
   period: [string, string];
 };
 
 type Position = {
   title: string;
   description: string;
-  duration?: string;
   period: [string, string];
   responsibilities: string[];
 };
@@ -29,6 +29,7 @@ export type ResumeSchema = {
   title: string;
   subtitle: string;
   thirdtitle: string;
+  email: string;
   summary: Section<string>;
   experience: Section<Experience[]>;
   education: Section<Education[]>;

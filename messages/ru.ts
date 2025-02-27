@@ -5,6 +5,7 @@ const content: { index: ResumeSchema } = {
     title: 'Аскар Яляев',
     subtitle: 'Senior Javascript Frontend разработчик',
     thirdtitle: '6+ лет опыта',
+    email: 'askarrussia@gmail.com',
     summary: {
       title: 'Обо мне',
       content:
@@ -20,8 +21,7 @@ const content: { index: ResumeSchema } = {
           link: 'https://samolet.ru/',
           positions: [
             {
-              period: ['07/2023', 'по настоящее время'],
-              duration: '2.7 лет',
+              period: ['2023-09-01', 'по настоящее время'],
               title: 'Frontend Lead, дизайн система',
               description: 'Работа над внутренней дизайн-системой',
               responsibilities: [
@@ -37,8 +37,7 @@ const content: { index: ResumeSchema } = {
               ],
             },
             {
-              period: ['08/2022', '07/2023'],
-              duration: '1.2 лет',
+              period: ['2022-08-01', '2023-09-01'],
               title: 'Frontend разработчик',
               description: 'Работа над внутренними сервисами',
               responsibilities: [
@@ -58,8 +57,7 @@ const content: { index: ResumeSchema } = {
           link: 'https://www.kt-team.ru/',
           positions: [
             {
-              period: ['05/2021', '08/2022'],
-              duration: '1.5 лет',
+              period: ['2021-04-01', '2022-08-01'],
               title: 'Frontend разработчик',
               description:
                 'Разработка внутренних сервисов в компании Samolet Development',
@@ -80,8 +78,7 @@ const content: { index: ResumeSchema } = {
           link: '',
           positions: [
             {
-              period: ['09/2020', '05/2021'],
-              duration: '8 месяцев',
+              period: ['2020-09-01', '2021-04-01'],
               title: 'Fullstack разработчик',
               description:
                 'Заказная разработка интернет-магазинов, сайт-визиток, лендингов под ключ',
@@ -103,8 +100,7 @@ const content: { index: ResumeSchema } = {
           link: '',
           positions: [
             {
-              period: ['01/2019', '09/2020'],
-              duration: '1.9 лет',
+              period: ['2019-01-01', '2020-09-01'],
               title: 'Frontend разработчик',
               description: 'Работа над внутренней SCADA-системой',
               responsibilities: [
@@ -123,8 +119,7 @@ const content: { index: ResumeSchema } = {
           link: '',
           positions: [
             {
-              period: ['05/2018', '01/2019'],
-              duration: '8 месяцев',
+              period: ['2018-06-01', '2019-01-01'],
               title: 'Программист-разработчик',
               description:
                 'Работа над программным обеспечением для продуктов Мега12, MegaWeb',
@@ -147,13 +142,14 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Уфимский Авиационный Технический Университет',
           description: 'Бакалавр, Информатика и вычислительная техника',
-          period: ['09/2014', '08/2018'],
+          link: 'https://uust.ru/history/usatu/',
+          period: ['2014-09-01', '2018-09-01'],
         },
       ],
     },
     languages: {
       title: 'Языки',
-      content: ['Русский - носитель', 'Английский - C1'],
+      content: ['Русский - носитель', 'Английский - B2'],
     },
   },
 };

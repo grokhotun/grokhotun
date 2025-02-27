@@ -1,40 +1,9 @@
 import React from 'react';
-import {
-  Title,
-  Paragraph,
-  Span,
-  Link,
-  List,
-  RussianFlag,
-  BritishFlag,
-  Box,
-} from '@/app/ui';
+import { Title, Paragraph, Link, List, Box } from '@/app/ui';
 import dayjs from 'dayjs';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
-
-const duration = (start: string, end: string) => {
-  const difference = dayjs(end).diff(dayjs(start), 'months');
-  const years = Math.floor(difference / 12);
-  const months = difference % 12;
-  if (years < 1) return `${months} months`;
-  return `${years}.${months} years`;
-};
-
-const useLanguageLink = (lang: 'en' | 'ru') => {
-  const { href, title } = {
-    en: {
-      title: <RussianFlag />,
-      href: '/ru',
-    },
-    ru: {
-      title: <BritishFlag />,
-      href: '/en',
-    },
-  }[lang];
-
-  return [href, title] as const;
-};
+import { useDuration } from '../hooks';
 
 const skills = [
   'React',
@@ -110,11 +79,25 @@ type HomeProps = { params: { lang: 'en' | 'ru' } };
 
 export default function Home(props: HomeProps) {
   unstable_setRequestLocale(props.params.lang);
-  const [href, title] = useLanguageLink(props.params.lang);
   const t = useTranslations('index');
+  const duration = useDuration(props.params.lang);
   const experience = Object.values<any>(t.raw('experience.content'));
   const education = Object.values<any>(t.raw('education.content'));
   const languages = Object.values<string>(t.raw('languages.content'));
+  const email = t('email');
+  // const months = experience
+  //   .map(exp =>
+  //     exp.positions
+  //       .map((position: any) => position.period)
+  //       .map(([from, to]: [string, string]) => {
+  //         const start = from;
+  //         const end = dayjs(to).isValid() ? dayjs(to) : dayjs();
+  //         const difference = dayjs(end).diff(dayjs(start), 'months');
+  //         return difference;
+  //       }),
+  //   )
+  //   .flat()
+  //   .reduce((experience, current) => experience + current, 0);
 
   return (
     <main className='mx-auto w-[210mm] px-16 py-16'>
@@ -133,8 +116,8 @@ export default function Home(props: HomeProps) {
           >
             LinkedIn
           </Link>
-          <Link target='_blank' href='mailto:askarrussia@gmail.com'>
-            askarrussia@gmail.com
+          <Link target='_blank' href={`mailto:${email}`}>
+            {email}
           </Link>
           <Link target='_blank' href='https://t.me/skrylyv'>
             https://t.me/skrylyv
@@ -165,6 +148,13 @@ export default function Home(props: HomeProps) {
                 {company.place}
               </Paragraph>
             </Box>
+            {company.description && (
+              <Box className='flex justify-between'>
+                <Paragraph className='my-1 text-base font-light'>
+                  {company.description}
+                </Paragraph>
+              </Box>
+            )}
             {Object.values<any>(company.positions).map(position => (
               <React.Fragment key={position.title}>
                 <Box className='flex items-center'>
@@ -180,7 +170,9 @@ export default function Home(props: HomeProps) {
                         })
                         .join(' - ')}
                     </span>
-                    {position.duration && <span>({position.duration})</span>}
+                    <span>
+                      ({duration(position.period[0], position.period[1])})
+                    </span>
                   </Paragraph>
                 </Box>
                 <Paragraph>{position.description}</Paragraph>
@@ -211,7 +203,13 @@ export default function Home(props: HomeProps) {
         <React.Fragment key={education.title}>
           <Box className='flex items-center'>
             <Title level={4} className='grow'>
-              {education.title}
+              {education.link ? (
+                <a target='_blank' href={education.link}>
+                  {education.title}
+                </a>
+              ) : (
+                education.title
+              )}
             </Title>
             <Paragraph className='my-1 italic text-base font-light'>
               {education.period

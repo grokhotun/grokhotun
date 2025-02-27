@@ -5,10 +5,11 @@ const content: { index: ResumeSchema } = {
     title: 'Askar Yalyaev',
     subtitle: 'Senior Javascript Frontend Engineer',
     thirdtitle: '6+ years of experience',
+    email: 'skrylyv@icloud.com',
     summary: {
       title: 'About',
       content:
-        'Frontend Engineer с более чем 6-летним опытом разработки масштабируемых и высокопроизводительных веб-приложений, включая E-commerce платформы и высоконагруженные системы. В основном работаю с TypeScript и React, но также имею опыт работы с Vue.js. Последние два года занимался разработкой и внедрением дизайн-системы.',
+        'Frontend Engineer with 6+ years of experience in building scalable and high-performance web applications, including e-commerce platforms and high-load systems. I mainly work with TypeScript and React, but also have experience with Vue.js. For the past two years, I have been leading the development and adoption of a design system. Experienced in building responsive, user-friendly interfaces and optimizing web performance for high-load applications',
     },
     skills: 'Skills',
     experience: {
@@ -18,10 +19,11 @@ const content: { index: ResumeSchema } = {
           title: 'Samolet Group',
           place: 'Moscow, Russia',
           link: 'https://samolet.ru/en/investors/about_us/',
+          description:
+            'One of the largest federal corporations in proptech and development in Russia.',
           positions: [
             {
               period: ['2023-09-01', 'Present'],
-              duration: '2.7 years',
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
@@ -36,7 +38,6 @@ const content: { index: ResumeSchema } = {
             },
             {
               period: ['2022-08-01', '2023-09-01'],
-              duration: '1.2 years',
               title: 'Frontend developer',
               description: '',
               responsibilities: [
@@ -58,7 +59,6 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2021-04-01', '2022-08-01'],
-              duration: '1.5 years',
               title: 'Frontend developer',
               description:
                 'Outstaffed to "Samolet Group" as a frontend engineer',
@@ -79,7 +79,6 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2020-09-01', '2021-04-01'],
-              duration: '8 months',
               title: 'Fullstack developer',
               description: '',
               responsibilities: [
@@ -101,7 +100,6 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2019-01-01', '2020-09-01'],
-              duration: '1.9 years',
               title: 'Frontend developer',
               description: '',
               responsibilities: [
@@ -123,7 +121,6 @@ const content: { index: ResumeSchema } = {
           positions: [
             {
               period: ['2018-06-01', '2019-01-01'],
-              duration: '8 months',
               title: 'Software engineer',
               description: '',
               responsibilities: [
@@ -146,13 +143,14 @@ const content: { index: ResumeSchema } = {
         {
           title: 'Ufa State Aviation Technical University',
           description: 'Bachelor of computer science and robotics',
+          link: 'https://study.uust.ru/',
           period: ['2014-09-01', '2018-09-01'],
         },
       ],
     },
     languages: {
       title: 'Languages',
-      content: ['Russian - Native', 'English - C1'],
+      content: ['Russian - Native', 'English - B2'],
     },
   },
 };
