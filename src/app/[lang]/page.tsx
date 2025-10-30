@@ -183,7 +183,7 @@ export default function Home(props: HomeProps) {
                       <List.Item key={responsibility}>
                         <Paragraph
                           dangerouslySetInnerHTML={{ __html: responsibility }}
-                        ></Paragraph>
+                        />
                       </List.Item>
                     ))}
                 </List>

@@ -16,6 +16,23 @@ const content: { index: ResumeSchema } = {
       title: 'Experience',
       content: [
         {
+          title: 'Technokratos',
+          place: 'Kazan, Russia',
+          link: 'https://technokratos.com',
+          positions: [
+            {
+              period: ['2025-03-01', 'Present'],
+              title: 'Frontend developer',
+              description: 'Description',
+              responsibilities: [
+                'Responsibility 1',
+                'Responsibility 2',
+                'Responsibility 3',
+              ],
+            },
+          ],
+        },
+        {
           title: 'Samolet Group',
           place: 'Moscow, Russia',
           link: 'https://samolet.ru/en/investors/about_us/',
@@ -23,7 +40,7 @@ const content: { index: ResumeSchema } = {
             'One of the largest federal corporations in proptech and development in Russia.',
           positions: [
             {
-              period: ['2023-09-01', 'Present'],
+              period: ['2023-09-01', '2025-03-01'],
               title: 'Frontend Lead, design system',
               description: 'Head of Design System Development',
               responsibilities: [
